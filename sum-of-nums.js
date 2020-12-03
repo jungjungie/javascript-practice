@@ -12,12 +12,15 @@
 
 
 function addNums (num) {
+    // Variable starting the sum at 0;
     let sum = 0;
 
+    // Loop through the array and add each number to the sum
     for (let i=1; i <= num; i++) {
         sum += i;
     }
 
+    // Return the the final sum
     return sum;
 }
 

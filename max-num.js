@@ -33,6 +33,7 @@ function findMaxNum (arr) {
         }
     }
 
+    // Return the final maxNum
     return maxNum;
 }
 
