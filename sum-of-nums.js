@@ -1,4 +1,4 @@
-// Write a function that takes in an integer and outputs the sum of all the numbers from 1 to that integer.
+// INSTRUCTIONS: Write a function that takes in an integer and outputs the sum of all the numbers from 1 to that integer.
 
 // Ex:
 // Input: 2
