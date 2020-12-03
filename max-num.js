@@ -10,12 +10,30 @@
 // Input: [ 3, 3, 3 ]
 // Output: 3
 
+// ======================================================
+// Solution 1
 function findMaxNum (arr) {
     // Sort the array from lowest to highest number
     arr.sort((a,b) => a - b);
 
     // Return the last number in the sorted array
     return arr[arr.length-1];
+}
+
+// ======================================================
+// Solution 2
+function findMaxNum (arr) {
+    // Variable setting the max number to the first number in the array
+    let maxNum = arr[0];
+
+    // Loop through the array starting at the 2nd number. If the current maxNum is less than the number we are looping through, then that number becomes the new max.
+    for (let i=1; i < arr.length; i++) {
+        if (maxNum < arr[i]) {
+            maxNum = arr[i];
+        }
+    }
+
+    return maxNum;
 }
 
 findMaxNum([ 1, 2, 3 ]);
