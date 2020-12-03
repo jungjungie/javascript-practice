@@ -1,15 +1,3 @@
-// INSTRUCTIONS: Write a function that takes in an array of numbers and outputs the maximum number.
-
-// Ex:
-// Input: [ 1, 2, 3 ]
-// Output: 3
-
-// Input: [ 3, 6, 4, 5, 2, 1 ]
-// Output: 6
-
-// Input: [ 3, 3, 3 ]
-// Output: 3
-
 // ======================================================
 // Solution 1
 function findMaxNum (arr) {
@@ -37,6 +25,6 @@ function findMaxNum (arr) {
     return maxNum;
 }
 
-findMaxNum([ 1, 2, 3 ]);
-findMaxNum([ 3, 6, 4, 5, 2, 1 ]);
-findMaxNum([ 3, 3, 3 ]);
+findMaxNum([ 1, 2, 3 ]); // Expected output: 3
+findMaxNum([ 3, 6, 4, 5, 2, 1 ]); // Expected output: 6
+findMaxNum([ 3, 3, 3 ]); // Expected output: 3
