@@ -7,7 +7,7 @@ let checkIfIncluded = (arr, el) => {
 }
 
 // ====================================================
-// Solution 1
+// Solution 2
 let checkIfIncluded = (arr, el) => {
     for (let i=0; i < arr.length; i++) {
         if (arr[i] == el) {
